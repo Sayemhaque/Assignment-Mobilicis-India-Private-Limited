@@ -1,5 +1,6 @@
 import React from 'react';
 import Sidebar from './Sidebar';
+import Header from '../component/Header';
 
 const DashboardLayout = ({children}) => {
     return (
@@ -11,7 +12,7 @@ const DashboardLayout = ({children}) => {
         </div>
             {/* Content */}
          <div className='col-span-5 md:col-span-4 bg-blue-100'>
-            <h1 className='border-b border-gray-200 py-6 bg-white'>wor</h1>
+           <Header/>
          {children}
          </div>
         </div>
