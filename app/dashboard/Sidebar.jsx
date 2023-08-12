@@ -3,7 +3,7 @@ import React from 'react';
 
 const Sidebar = () => {
     return (
-        <div className='h-screen  text-center'>
+        <div className='h-screen hidden md:block  text-center'>
            <button className='border border-gray-200 mt-5  px-5 py-2 bg-white'>
             Dashboard</button>
             {/* Links */}
